@@ -13,7 +13,7 @@ int main(int argc, char* argv[]) {
 }
 #endif ///itt er veget a maines blokk
 
-#ifdef CATCH_CONFIG_MAIN
+#ifdef CATCH_CONFIG_MAIN ///itt kezdodik a test-es blokk
 #include "catch.hpp" //itt behuzom a test-hez szukseges catch headert. ez az include csak itt lesz leforditva
 
 TEST_CASE("test 1") {
@@ -21,4 +21,4 @@ TEST_CASE("test 1") {
   REQUIRE(a == 6);
 }
 
-#endif
+#endif ///itt er veget a test-es blokk
