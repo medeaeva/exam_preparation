@@ -8,5 +8,5 @@ std::string read_file() {
     content += buffer + "\n";
   }
   source_file.close();
-  return line;
+  return content;
 }
