@@ -1,3 +1,5 @@
+#include <fstream>
+
 //read file into string by line
 
 std::string read_file() {
